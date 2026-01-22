@@ -48,3 +48,23 @@
         font-size: 40px;
     }
     }
+
+    .card.japao{
+        background: url(../img/bg-card-japao.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .card.sanadreas{
+        background: url(../img/bg-card-san-andres.png) no-repeat;
+        background-size: cover;
+    }
+
+    .card.paraiba{
+        background: url(../img/bg-card-paraiba.png) no-repeat;
+        background-size: cover;
+    }
+
+    .card.manaus{
+        background: url(../img/bg-card-manaus.png) no-repeat;
+        background-size: cover;
+    }
