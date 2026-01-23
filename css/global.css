@@ -60,7 +60,7 @@ body{
   font-weight: var(--titles-weight);
   margin: 0;
   text-align: center;
-}
+  }
 }
 
 .button{
@@ -75,8 +75,8 @@ body{
   line-height: 64px;
 }
 
-  @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .button:hover {
     background-color: var(--primary-color);
-  }
+    }
   }
