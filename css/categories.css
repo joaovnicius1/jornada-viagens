@@ -1,0 +1,98 @@
+/* =======================
+   CATEGORIES
+======================= */
+
+.categories {
+    padding-bottom: 64px;
+}
+
+/* =======================
+   TÍTULO DA SEÇÃO
+======================= */
+
+.categories .section-title {
+    width: 312px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .categories .section-title {
+        width: 100%;
+    }
+}
+
+/* =======================
+   CONTAINER DOS CARDS
+======================= */
+
+.categories-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 64px;
+}
+
+/* =======================
+   CARD DE CATEGORIA
+======================= */
+
+.categories-cards .card {
+    width: 312px;
+    height: 220px;
+    background-color: var(--background-secondary-color);
+    border-radius: 16px;
+    padding: 24px;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    color: var(--text-primary-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.categories-cards .card img {
+    margin-bottom: 16px;
+}
+
+/* =======================
+   AJUSTES PARA UMA LINHA
+======================= */
+
+/* cards com apenas uma linha de texto */
+.categories-cards .card.single-line {
+    padding-top: 50px;
+}
+
+/* ajuste específico do transfer */
+.categories-cards .card.single-line.transfer img {
+    margin: 10px 0 20px;
+}
+
+/* =======================
+   RESPONSIVIDADE
+======================= */
+
+@media screen and (min-width: 768px) {
+    .categories-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .categories-cards .card {
+        width: 430px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .categories-cards .card {
+        width: 280px;
+    }
+}
