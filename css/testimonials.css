@@ -36,7 +36,15 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .testimonial-container{
+    .testimonial-container {
         flex-direction: row;
+    }
+
+    header {
+        padding: 38px 13px;
+    }
+
+    .section-title{
+        margin-top: 104px;
     }
 }
